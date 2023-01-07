@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/Pad/Pad.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Screw/Screw.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/basepad.png" type="Texture" id=3]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Basepad" type="Sprite" parent="."]
+position = Vector2( 376, 180 )
+texture = ExtResource( 3 )
+
+[node name="Pad" parent="." instance=ExtResource( 1 )]
+position = Vector2( 376, 180 )
+
+[node name="Scew_01" parent="Pad" instance=ExtResource( 2 )]
+position = Vector2( -173, -126 )
+
+[node name="Scew_02" parent="Pad" instance=ExtResource( 2 )]
+position = Vector2( 178, -126 )
+
+[node name="Scew_03" parent="Pad" instance=ExtResource( 2 )]
+position = Vector2( -173, 125 )
+
+[node name="Scew_04" parent="Pad" instance=ExtResource( 2 )]
+position = Vector2( 178, 125 )
+
+[node name="Bag" type="Node2D" parent="."]
