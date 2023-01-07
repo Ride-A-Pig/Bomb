@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/parachute-opening.mp3-b4c0bcd13f20c589fdc88a10991ecf0b.mp3str"
+
+[deps]
+
+source_file="res://SFX/parachute-opening.mp3"
+dest_files=[ "res://.import/parachute-opening.mp3-b4c0bcd13f20c589fdc88a10991ecf0b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

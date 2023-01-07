@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/skydiving.mp3-d2bd2095ada41733de6717fa2e90a4d5.mp3str"
+
+[deps]
+
+source_file="res://SFX/skydiving.mp3"
+dest_files=[ "res://.import/skydiving.mp3-d2bd2095ada41733de6717fa2e90a4d5.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
