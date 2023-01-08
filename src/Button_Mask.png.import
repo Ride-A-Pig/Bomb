@@ -1,0 +1,15 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+path="res://.import/Button_Mask.png-69c3aa297783b5d948d7b7b428898d5d.res"
+
+[deps]
+
+source_file="res://src/Button_Mask.png"
+dest_files=[ "res://.import/Button_Mask.png-69c3aa297783b5d948d7b7b428898d5d.res" ]
+
+[params]
+
+create_from=0
+threshold=0.5
