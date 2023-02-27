@@ -184,13 +184,6 @@ region_rect = Rect2( 0, 0, 7, 44 )
 
 [node name="Pad" parent="Basepad/P_01" instance=ExtResource( 1 )]
 
-[node name="TextureRect" type="TextureRect" parent="Basepad/P_01/Pad"]
-margin_left = -200.0
-margin_top = -147.0
-margin_right = 200.0
-margin_bottom = 147.0
-mouse_filter = 0
-
 [node name="ButtonTip" type="Sprite" parent="Basepad/P_01/Pad"]
 position = Vector2( 144, 92 )
 rotation = -0.785398
